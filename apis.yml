@@ -1,7 +1,12 @@
 aid: autonation
-url: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/apis.yml
+url: 
+  https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/apis.yml
 modified: '2026-03-21'
 apis: []
 common:
   - type: Website
     url: https://www.autonation.com
+description: >-
+  AutoNation is the largest automotive retailer in the United States, operating new
+  and used vehicle franchises along with collision centers, parts and service operations,
+  and used-vehicle stores.
