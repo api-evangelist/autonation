@@ -55,6 +55,8 @@ apis:
         url: https://www.autonation.com/service
 
 common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/autonation
   - type: Website
     url: https://www.autonation.com
   - type: Features
