@@ -18,6 +18,7 @@ tags:
   - Auto Finance
   - Service Scheduling
   - Used Vehicles
+  - Fortune 500
 apis:
   - aid: autonation:digital-retail
     name: AutoNation Digital Retail Platform
