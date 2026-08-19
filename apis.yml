@@ -23,7 +23,7 @@ description: >-
 url: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/apis.yml
 created: '2026-03-21'
 modified: '2026-04-19'
-specificationVersion: '0.19'
+specificationVersion: '0.23'
 tags:
   - Automotive Retail
   - Car Dealership
