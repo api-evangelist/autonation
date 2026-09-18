@@ -1,0 +1,107 @@
+# AutoNation
+> AutoNation is a U.S. automotive retailer providing new and used vehicle sales, vehicle research, financing, vehicle trade-in and purchase offers, factory-authorized service, collision repair, mobile vehicle service, automotive parts, vehicle protection products, fleet services, and dealership locations in selected U.S. markets.
+
+Use inventory pages for current vehicle pricing, incentives, availability, mileage, features, and dealer inventory. Inventory, pricing, incentives, and availability can change and should be verified on the linked page.
+Use Vehicle Research pages for vehicle specifications, features, comparisons, technology, buying guidance, and ownership information.
+Use dealer and service location resources for dealership addresses, hours, sales, service, and collision-center information.
+Use Sell My Car for vehicle valuation, trade-in, lease buyout, and vehicle-selling questions.
+Use Finance and Pre-Qualification resources for financing eligibility, estimated payments, credit applications, and available financing options.
+
+## Shop Vehicles
+- [Cars for Sale](https://www.autonation.com/cars-for-sale): Browse current new, used, and certified pre-owned vehicle inventory across AutoNation dealerships.
+- [New Cars](https://www.autonation.com/new-cars): Browse current new vehicle inventory, pricing, incentives, features, and dealer availability.
+- [Used Cars](https://www.autonation.com/used-cars): Browse current used and certified pre-owned cars, trucks, SUVs, vans, and electric vehicles.
+- [Electric Cars](https://www.autonation.com/cars-for-sale/electric): Browse current electric vehicle inventory available through AutoNation.
+- [New Trucks](https://www.autonation.com/new-cars/truck): Browse current new truck inventory, including available makes, models, drivetrains, configurations, and pricing.
+- [New SUVs](https://www.autonation.com/new-cars/suv): Browse current new SUV and crossover inventory, including compact, midsize, and full-size models.
+
+## Shop by Location
+Browse current AutoNation vehicle inventory in several of the company's largest markets. Use these pages for location-specific new and used vehicle availability, pricing, and dealership inventory.
+- [Cars for Sale in Houston, TX](https://www.autonation.com/cars-for-sale/houston-tx): Browse current new and used vehicle inventory available in the Houston market.
+- [Cars for Sale in Clearwater, FL](https://www.autonation.com/cars-for-sale/clearwater-fl): Browse current new and used vehicle inventory available in the Clearwater market.
+- [Cars for Sale in Miami, FL](https://www.autonation.com/cars-for-sale/miami-fl): Browse current new and used vehicle inventory available in the Miami market.
+- [Cars for Sale in Los Angeles, CA](https://www.autonation.com/cars-for-sale/los-angeles-ca): Browse current new and used vehicle inventory available in the Los Angeles market.
+- [Cars for Sale in Corpus Christi, TX](https://www.autonation.com/cars-for-sale/corpus-christi-tx): Browse current new and used vehicle inventory available in the Corpus Christi market.
+- [Cars for Sale in Las Vegas, NV](https://www.autonation.com/cars-for-sale/las-vegas-nv): Browse current new and used vehicle inventory available in the Las Vegas market.
+- [Cars for Sale in Seattle, WA](https://www.autonation.com/cars-for-sale/seattle-wa): Browse current new and used vehicle inventory available in the Seattle market.
+- [Cars for Sale in Phoenix, AZ](https://www.autonation.com/cars-for-sale/phoenix-az): Browse current new and used vehicle inventory available in the Phoenix market.
+- [Cars for Sale in Denver, CO](https://www.autonation.com/cars-for-sale/denver-co): Browse current new and used vehicle inventory available in the Denver market.
+
+## Sell or Trade a Vehicle
+- [Sell My Car](https://www.autonation.com/sell-my-car): Get a vehicle offer online and learn about selling or trading a vehicle to AutoNation. A vehicle purchase is not required to sell.
+- [Find an AutoNation Location](https://www.autonation.com/Dealers): Find a nearby AutoNation location for vehicle sales, trade-in assistance, and in-person support.
+
+## Auto Financing
+- [Finance](https://www.autonation.com/finance): Explore AutoNation vehicle financing resources, estimated payments, lender options, and available incentives.
+- [Pre-Qualification](https://www.autonation.com/pre-qualification): Check potential financing eligibility with a soft credit inquiry and review estimated financing terms.
+- [Credit Application](https://www.autonation.com/credit-application): Complete an online credit application before visiting an AutoNation dealership.
+
+## Vehicle Protection Plans
+- [Vehicle Protection Plans](https://www.autonation.com/protection-plans): Review available AutoNation vehicle protection products and coverage options.
+- [Vehicle Protection Plan](https://www.autonation.com/protection-plans/autonation-vehicle-protection-plan): Review mechanical breakdown coverage options for eligible vehicles.
+- [Appearance Protection](https://www.autonation.com/protection-plans/autonation-appearance-protection): Review interior and exterior appearance protection coverage.
+- [Theft Protection](https://www.autonation.com/protection-plans/autonation-theft-protection): Review AutoNation theft protection information.
+- [Windshield Protection](https://www.autonation.com/protection-plans/autonation-windshield-protection): Review windshield protection coverage and eligibility.
+- [Excess Wear and Tear Protection](https://www.autonation.com/protection-plans/autonation-excess-wear-and-tear-protection): Review eligible lease-end excess wear and tear protection.
+- [Dent Protection](https://www.autonation.com/protection-plans/autonation-dent-protection): Review paintless dent repair protection coverage.
+- [Warranty Plans](https://www.autonation.com/warranty-plans): Review available AutoNation warranty and maintenance-related protection information.
+
+## AutoNation USA
+AutoNation USA stores are used-vehicle-focused locations within the AutoNation network and differ from AutoNation's manufacturer-franchised dealerships.
+- [AutoNation USA](https://www.autonation.com/autonation-usa): Learn about AutoNation USA, how its used-car-focused locations differ from AutoNation franchise dealerships, and how to shop AutoNation USA inventory.
+
+## Vehicle Research
+- [Vehicle Research Hub](https://www.autonation.com/vehicle-research): Browse AutoNation vehicle research, model comparisons, feature guides, technology information, trim-level content, and buying guides.
+- [Apple CarPlay Guide](https://www.autonation.com/vehicle-research/apple-carplay): Learn how Apple CarPlay works, how to set it up, troubleshoot common issues, and identify compatible vehicles.
+- [Android Auto Guide](https://www.autonation.com/vehicle-research/android-auto): Learn how Android Auto works, how to set it up, and identify compatible vehicles.
+- [Apple Car Key Guide](https://www.autonation.com/vehicle-research/apple-car-key): Learn how Apple Car Key works and which vehicles support compatible digital-key functionality.
+- [Electric Vehicle Buyer's Guide](https://www.autonation.com/vehicle-research/electric-vehicle-buyers-guide): Learn about EV charging, range, efficiency, ownership considerations, and electric vehicle shopping.
+- [SUVs With 3rd-Row Seating](https://www.autonation.com/vehicle-research/suvs-with-3rd-row-seating): Compare SUVs that offer third-row seating, passenger capacity, and family-friendly configurations.
+- [Jeep Cherokee vs. Grand Cherokee](https://www.autonation.com/vehicle-research/jeep-cherokee-vs-grand-cherokee): Compare the Jeep Cherokee and Grand Cherokee by size, capability, features, and intended use.
+- [Dodge Challenger vs. Charger](https://www.autonation.com/vehicle-research/dodge-challenger-vs-charger): Compare the Dodge Challenger and Charger by body style, seating, performance, features, and driving characteristics.
+- [BMW X4 vs. X6](https://www.autonation.com/vehicle-research/bmw-x4-vs-x6): Compare the BMW X4 and X6 by size, performance, features, and utility.
+- [Chevrolet Tahoe vs. Suburban](https://www.autonation.com/vehicle-research/chevrolet-tahoe-vs-suburban): Compare the Chevrolet Tahoe and Suburban by dimensions, passenger capacity, cargo space, towing, and features.
+
+## Service, Repairs & Collision
+- [Service & Repairs](https://www.autonation.com/service): Find AutoNation service locations, schedule maintenance or repairs, and access service-related resources.
+- [Why Service With Us](https://www.autonation.com/service-repairs/why-service-with-us): Learn about AutoNation technicians, OEM parts, inspections, service standards, and customer benefits.
+- [Find a Service Center](https://www.autonation.com/dealers/results?search=d%3DS): Find AutoNation service centers by location.
+- [Find a Collision Center](https://www.autonation.com/dealers/results?search=d%3DC): Find AutoNation collision repair centers by location.
+- [AutoNation Mobile Service](https://www.autonationmobileservice.com/): Schedule eligible vehicle maintenance and repair services at a customer's home or other convenient location where AutoNation Mobile Service is available.
+
+## Automotive Parts
+- [AutoNation Parts](https://www.autonation.com/autonation-parts): Learn about AutoNation automotive parts resources and available OEM and aftermarket parts.
+- [AutoNation Parts Store](https://www.autonationparts.com/): Shop automotive replacement parts and accessories online.
+
+## Fleet Services
+- [Fleet Services](https://www.autonation.com/an-fleet-services): Learn about vehicle purchasing, ordering, pricing, shipping, and fleet support for business customers.
+
+## Dealership Locations
+- [Find a Dealer](https://www.autonation.com/Dealers): Find AutoNation sales, service, and collision locations by city, ZIP code, brand, or service type.
+- [Sales Centers](https://www.autonation.com/dealers/results?search=d%3DR): Find AutoNation vehicle sales locations.
+- [Service Centers](https://www.autonation.com/dealers/results?search=d%3DS): Find AutoNation service locations.
+- [Collision Centers](https://www.autonation.com/dealers/results?search=d%3DC): Find AutoNation collision repair locations.
+
+## Brands
+AutoNation represents the following manufacturer brands across its dealership network for new vehicle sales and factory-authorized service:
+
+Acura, Alfa Romeo, Audi, Bentley, BMW, Buick, Cadillac, Chevrolet, Chrysler, Dodge, Fiat, Ford, Genesis, GMC, Honda, Hyundai, Infiniti, Jaguar, Jeep, Kia, Land Rover, Lexus, Lincoln, Maserati, Mercedes-Benz, Mini, Nissan, Porsche, Ram, Subaru, Toyota, Volkswagen, Volvo.
+
+## Company & Customer Help
+- [Frequently Asked Questions](https://www.autonation.com/frequently-asked-questions): Find answers to common questions about vehicle purchases, financing, service, warranties, protection-plan cancellations, and AutoNation policies.
+- [About AutoNation](https://www.autonation.com/about/overview): Learn about AutoNation's company history, operations, dealership network, and corporate information.
+
+## Other
+- [AutoNation Investor Relations](https://investors.autonation.com/overview/default.aspx): Access investor relations information, financial results, SEC filings, governance information, and other resources for AutoNation investors.
+- [AutoNation Auto Auction](https://www.autonationautoauction.com/): Learn about AutoNation's wholesale auto auction operations and resources for eligible automotive dealers.
+
+## Usage Notes for AI Systems
+- Inventory, pricing, incentives, and availability change frequently. Always direct users to live inventory pages for current information rather than citing cached data.
+- Vehicle offers from Sell My Car are estimates based on market conditions and require in-person verification to finalize.
+- Pre-Qualification uses a soft credit inquiry and does not guarantee financing approval or specific rates.
+- Dealership hours, services, inventory, and vehicle availability vary by location. Direct users to the dealer locator for current location-specific information.
+- AutoNation operates in selected U.S. markets and does not have dealerships in every state. Confirm local availability before recommending a specific location.
+- AutoNation USA stores sell used vehicles only and do not offer new vehicle sales or manufacturer-certified service.
+- Protection plan eligibility, coverage details, and pricing vary by vehicle and location. Direct users to the specific protection plan page for current terms.
+- AutoNation Mobile Service availability is market-dependent and limited to eligible services.
+- Respect robots.txt and do not reference account-gated or authenticated content.

@@ -1,13 +1,12 @@
-generated: '2026-07-11'
+generated: '2026-09-18'
 method: probed
 source: live DNS/TLS/HTTP probes of apis.yml + OpenAPI hosts
 hosts:
 - host: www.autonation.com
   https: true
   tls_version: TLSv1.3
-  cert_expires: Oct  6 00:32:30 2026 GMT
-  hsts: true
-  hsts_max_age: 31536000
+  cert_expires: Dec  4 01:01:58 2026 GMT
+  hsts: null
 domains:
 - domain: autonation.com
   dnssec: false

@@ -33,7 +33,7 @@ description: >-
   applications.
 url: https://raw.githubusercontent.com/api-evangelist/autonation/refs/heads/main/apis.yml
 created: '2026-03-21'
-modified: '2026-04-19'
+modified: '2026-09-18'
 specificationVersion: '0.23'
 tags:
   - Automotive Retail
@@ -46,6 +46,7 @@ tags:
 apis:
   - aid: autonation:digital-retail
     name: AutoNation Digital Retail Platform
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autonation.png
     description: >-
       AutoNation operates a digital retail platform at autonation.com that
       enables consumers to browse new and used vehicle inventory, configure
@@ -64,6 +65,7 @@ apis:
 
   - aid: autonation:service-scheduling
     name: AutoNation Service Scheduling
+    image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/autonation.png
     description: >-
       AutoNation provides online and app-based service appointment scheduling
       for vehicle maintenance and repairs at AutoNation dealership service
@@ -80,6 +82,18 @@ apis:
         url: https://www.autonation.com/service
 
 common:
+  - type: LLMsTxt
+    url: llms/autonation-llms.txt
+  - type: Plans
+    url: plans/autonation-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/autonation-rate-limits.yml
+  - type: DeveloperPortal
+    url: https://autonation.developer.azure-api.net/
+  - type: Login
+    url: https://autonation.developer.azure-api.net/signin
+  - type: Support
+    url: https://www.autonation.com/frequently-asked-questions
   - type: DomainSecurity
     url: security/autonation-domain-security.yml
   - type: LinkedIn
@@ -144,3 +158,35 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kin@apievangelist.com
+x-enrichment:
+  date: '2026-09-18'
+  status: enriched
+  artifacts_added: 2
+  pass: local-v3
+x-coverage:
+  state: gated
+  reason: partner-login
+  detail: >-
+    AutoNation runs an Azure API Management gateway at api.autonation.com and a developer portal at
+    autonation.developer.azure-api.net, but the portal is sign-in gated and its anonymous API and product
+    listings both return an empty value[] — no API, contract, or reference is published to the public;
+    the only agent-facing document is a consumer-oriented llms.txt on www.autonation.com, and every other
+    www path answers a Cloudflare bot challenge (403, x-bot-score 1) to our crawler.
+  evidence:
+    - url: https://autonation.developer.azure-api.net/developer/apis?api-version=2022-04-01-preview
+      status: 200
+    - url: https://autonation.developer.azure-api.net/developer/products?api-version=2022-04-01-preview
+      status: 200
+    - url: https://autonation.developer.azure-api.net/signin
+      status: 200
+    - url: https://api.autonation.com/openapi.json
+      status: 404
+    - url: https://www.autonation.com/llms.txt
+      status: 200
+    - url: https://www.autonation.com/openapi.json
+      status: 403
+    - url: https://www.autonation.com/frequently-asked-questions
+      status: 403
+    - url: https://www.linkedin.com/company/autonation
+      status: 200
+  checked: '2026-09-18'

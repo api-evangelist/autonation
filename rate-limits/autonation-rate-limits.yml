@@ -6,9 +6,15 @@ providerId: autonation
 created: '2026-05-04'
 # Provenance stamped 2026-08-11: this artifact was written by the API Evangelist
 # bulk sweep dated 2026-05-04, not harvested from the provider. See roadmap#35.
-method: generated
-modified: '2026-05-05'
-reconciled: false
+# Re-verified by probe 2026-09-18: the Azure API Management developer portal (sign-in gated) publishes
+# zero APIs and zero products to anonymous developers, so no rate-limit documentation is reachable; the
+# api.autonation.com gateway answers 404 at every root path without a rate-limit header.
+method: probed
+generated: '2026-09-18'
+modified: '2026-09-18'
+reconciled: true
+limit_count: 0
+source: https://autonation.developer.azure-api.net/developer/apis?api-version=2022-04-01-preview
 notes: AutoNation does not publish a public API or rate-limit documentation. Any API throttles are
   defined by the underlying DMS / OEM data feed under partner agreement.
 tags:

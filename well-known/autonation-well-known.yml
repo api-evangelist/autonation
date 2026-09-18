@@ -1,0 +1,132 @@
+generated: '2026-09-18'
+method: probed
+source: live GET of every /.well-known/* path on every host the record knows (registrable domain + www, the
+  api.autonation.com gateway, the Azure API Management developer portal, investors.autonation.com)
+provider: AutoNation
+providerId: autonation
+note: >-
+  No host served a real well-known document, so NO WellKnown/SecurityTxt pointer is emitted in apis.yml.
+  www.autonation.com answers a Cloudflare custom 404 page (326 KB HTML, cf bot-managed) for every
+  /.well-known/* path; the bare domain 301s to www. api.autonation.com is an Azure API Management gateway
+  that answers {"statusCode":404,"message":"Resource not found"} at every path. The APIM developer portal
+  serves its own 404 template. investors.autonation.com returns HTTP 200 with the 11-byte text body
+  "Invalid key" for agent-card.json, agent.json and ai-plugin.json — an IIS catch-all, not a document, so
+  it is recorded as a miss. The A2A agent-card probe (agent-card.json + legacy agent.json) missed on every
+  host, so no a2a/ artifact is written.
+hit_count: 0
+hosts:
+  - host: www.autonation.com
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/oauth-protected-resource
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+  - host: autonation.com
+    note: every path 301s to https://www.autonation.com/<same path>, which then 404s
+    documents:
+      - path: /.well-known/security.txt
+        status: 301
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 301
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+        file: null
+      - path: /.well-known/api-catalog
+        status: 301
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 301
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 301
+        file: null
+      - path: /.well-known/agent.json
+        status: 301
+        file: null
+  - host: api.autonation.com
+    note: Azure API Management gateway; every path answers the APIM JSON 404 envelope
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 404
+        file: null
+      - path: /.well-known/api-catalog
+        status: 404
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 404
+        file: null
+      - path: /.well-known/agent-card.json
+        status: 404
+        file: null
+      - path: /.well-known/agent.json
+        status: 404
+        file: null
+  - host: autonation.developer.azure-api.net
+    note: Azure API Management developer portal (sign-in gated)
+    documents:
+      - path: /.well-known/security.txt
+        status: 404
+        file: null
+      - path: /.well-known/openid-configuration
+        status: 404
+        file: null
+  - host: investors.autonation.com
+    note: HTTP 200 responses here carry the 11-byte text/html body "Invalid key" (IIS catch-all), not a
+      document; treated as misses
+    documents:
+      - path: /.well-known/security.txt
+        status: 200
+        file: null
+        soft_miss: true
+      - path: /.well-known/openid-configuration
+        status: 301
+        file: null
+      - path: /.well-known/oauth-authorization-server
+        status: 301
+        file: null
+      - path: /.well-known/api-catalog
+        status: 301
+        file: null
+      - path: /.well-known/ai-plugin.json
+        status: 200
+        file: null
+        soft_miss: true
+      - path: /.well-known/agent-card.json
+        status: 200
+        file: null
+        soft_miss: true
+      - path: /.well-known/agent.json
+        status: 200
+        file: null
+        soft_miss: true
