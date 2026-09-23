@@ -1,7 +1,9 @@
 ---
 title: AutoNation USA | Used Car Dealership with Used Cars for ...
 url: https://www.autonationusa.com/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"AutoNation" press release artificial intelligence'
 position: 2
 source: serpapi-google

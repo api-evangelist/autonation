@@ -1,7 +1,9 @@
 ---
 title: 'AutoNation on Instagram: "The Stanley Cup stopped by ...'
 url: https://www.instagram.com/reel/DPfLQt8jdpz/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"AutoNation" press release artificial intelligence'
 position: 4
 source: serpapi-google

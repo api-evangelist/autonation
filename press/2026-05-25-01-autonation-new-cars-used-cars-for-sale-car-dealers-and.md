@@ -1,7 +1,9 @@
 ---
 title: 'AutoNation: New Cars, Used Cars For Sale, Car Dealers and ...'
 url: https://www.autonation.com/
-date: '2026-05-25'
+published: ''
+date_basis: harvested
+harvested: '2026-05-25'
 query: '"AutoNation" press release artificial intelligence'
 position: 1
 source: serpapi-google
