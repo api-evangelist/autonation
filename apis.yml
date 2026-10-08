@@ -82,6 +82,8 @@ apis:
         url: https://www.autonation.com/service
 
 common:
+  - type: FinOps
+    url: finops/autonation-finops.yml
   - type: LLMsTxt
     url: llms/autonation-llms.txt
   - type: Plans
