@@ -1,4 +1,4 @@
-# AutoNation (autonation)
+# AutoNation
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -66,82 +66,101 @@
 
 AutoNation is the largest automotive retailer in the United States, operating over 250 new and used vehicle franchises along with collision centers, parts and service operations, and AutoNation USA used-vehicle stores. The company sells vehicles across most major OEM brands and provides digital retail, financing, and service scheduling capabilities through its website and mobile applications.
 
-**URL:** [https://www.autonation.com](https://www.autonation.com)
+**Areas:** Automotive Retail · Car Dealership · Vehicle Sales · Auto Finance · Service Scheduling · Used Vehicles · Fortune 500
 
-**Run:** [Capabilities Using Naftiko](https://github.com/naftiko/fleet?utm_source=api-evangelist&utm_medium=readme&utm_campaign=company-api-evangelist&utm_content=repo)
+## AutoNation on APIs.io
 
-## Tags
+Everything profiled for AutoNation is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/autonation/](https://apis.io/providers/autonation/)** — or go straight to one of the APIs or properties below.
 
- - Automotive Retail, Car Dealership, Vehicle Sales, Auto Finance, Service Scheduling, Used Vehicles
+### APIs (2)
 
-## Timestamps
+- [AutoNation Digital Retail Platform](https://apis.io/apis/autonation/digital-retail/) — AutoNation operates a digital retail platform at autonation.com that enables consumers to browse new and used vehicle inventory, configure purchases, apply…
+- [AutoNation Service Scheduling](https://apis.io/apis/autonation/service-scheduling/) — AutoNation provides online and app-based service appointment scheduling for vehicle maintenance and repairs at AutoNation dealership service centers across…
 
-- **Created:** 2026-03-21
-- **Modified:** 2026-04-19
+### Published properties
 
-## APIs
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
 
-### AutoNation Digital Retail Platform
+#### Security (1)
 
-AutoNation operates a digital retail platform at autonation.com that enables consumers to browse new and used vehicle inventory, configure purchases, apply for financing, and schedule vehicle deliveries online.
+Authentication, trust centre, and vulnerability disclosure.
 
-**Human URL:** [https://www.autonation.com](https://www.autonation.com)
+- [Autonation Domain Security](https://apis.io/security/autonation/autonation-domain-security/)
 
-#### Tags
+#### Plans and pricing (1)
 
- - Digital Retail, Vehicle Search, Inventory, Financing
+Published plans, tiers and prices.
 
-#### Properties
+- [Autonation Plans Pricing](https://apis.io/plans/autonation/autonation-plans-pricing/)
 
-- [Website](https://www.autonation.com)
+#### Rate limits (1)
 
-### AutoNation Service Scheduling
+Published request limits.
 
-AutoNation provides online and app-based service appointment scheduling for vehicle maintenance and repairs at AutoNation dealership service centers across the United States.
+- [Autonation Rate Limits](https://apis.io/rate-limits/autonation/autonation-rate-limits/)
 
-**Human URL:** [https://www.autonation.com/service](https://www.autonation.com/service)
+#### FinOps (1)
 
-#### Tags
+What the API costs to run, by operation.
 
- - Service Scheduling, Vehicle Maintenance, Repair, Automotive Service
+- [Autonation Finops](https://apis.io/finops/autonation/autonation-finops/)
 
-#### Properties
+## Where to find this API
 
-- [Website](https://www.autonation.com/service)
-
-## Common Properties
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
 
 - [Website](https://www.autonation.com)
+- [Support](https://www.autonation.com/frequently-asked-questions)
 
-## Features
+## API Evangelist rating
 
-| Name | Description |
-|------|-------------|
-| Digital Vehicle Shopping | Online vehicle search and purchase workflow allowing customers to browse inventory, configure deals, and complete purchases digitally without visiting a dealership. |
-| AutoNation Finance | Integrated financing platform allowing customers to apply for vehicle loans and lease programs online through AutoNation's lending partners. |
-| Service Scheduling | Online and mobile service appointment booking for AutoNation dealership service centers nationwide. |
-| AutoNation USA | Used vehicle retail stores offering one-price, no-haggle buying experience for pre-owned vehicles with digital purchase capabilities. |
-| Collision Center Network | Network of AutoNation collision centers providing auto body repair and insurance claim coordination services. |
+**Kin Score 16.2** — emerging · rubric 0.24.0 · scored 2026-10-17
 
-## Use Cases
+| Facet | Score |
+|---|---|
+| Discoverability | 64.3 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 21.1 |
+| Developer ergonomics | 14.3 |
+| Access clarity | 27.6 |
 
-| Name | Description |
-|------|-------------|
-| New Vehicle Purchase | Browse new vehicle inventory from major OEM brands at AutoNation dealerships and complete purchases through the digital retail platform. |
-| Used Vehicle Acquisition | Search and purchase certified pre-owned and used vehicles through AutoNation's dealership network and AutoNation USA standalone stores. |
-| Vehicle Service Management | Schedule and manage routine and warranty vehicle service appointments at AutoNation dealership service departments. |
-| Auto Finance Application | Apply for vehicle financing online and receive pre-approval decisions integrated into the vehicle purchase workflow. |
+**Agent readiness 2.5** — human-only
 
-## Integrations
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
 
-| Name | Description |
-|------|-------------|
-| OEM Dealer Systems | Integration with manufacturer dealer portals and ordering systems from Ford, GM, Toyota, BMW, Mercedes-Benz, and other OEM brands. |
-| Dealer Management Systems | Connection to DMS platforms (Reynolds and Reynolds, CDK Global) for inventory, service, and customer data management across dealerships. |
-| AutoNation Finance Partners | Integration with captive and third-party lenders for vehicle financing application routing and deal structuring. |
+**Regulatory alignment 5.9** — Horizontal (data, software, accessibility, platform)
 
-## Maintainers
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/autonation/](https://apis.io/providers/autonation/).
 
-**FN:** Kin Lane
+## How this profile is made
 
-**Email:** kin@apievangelist.com
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for AutoNation: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/autonation/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
