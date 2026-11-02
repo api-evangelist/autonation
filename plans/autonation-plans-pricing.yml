@@ -1,0 +1,71 @@
+specification: API Commons Plans
+specificationVersion: '0.1'
+schema: https://raw.githubusercontent.com/api-evangelist/interface-research/main/schema/api-commons.yml#/$defs/Plans
+provider: AutoNation
+providerId: autonation
+created: '2026-05-04'
+# Provenance stamped 2026-08-11: this artifact was written by the API Evangelist
+# bulk sweep dated 2026-05-04, not harvested from the provider. See roadmap#35.
+# Re-verified by probe 2026-09-18: the Azure API Management developer portal's anonymous product listing
+# (GET https://autonation.developer.azure-api.net/developer/products?api-version=2022-04-01-preview)
+# returned {"value":[],"nextLink":null} — zero products are published to unauthenticated developers.
+method: probed
+generated: '2026-09-18'
+modified: '2026-09-18'
+reconciled: true
+plan_count: 0
+notes: AutoNation does not operate a public developer program or publish API pricing. AutoNation is a
+  consumer-facing automotive retailer; any data exchange with AutoNation systems happens via OEM, DMS
+  (Reynolds & Reynolds, CDK Global), or third-party automotive data platforms under bilateral
+  agreement.
+tags:
+  - Automotive
+  - Retail
+  - Vehicle Inventory
+  - Dealer
+description: AutoNation does not publish a public API or developer pricing. Data integrations are
+  handled through DMS providers and OEM dealer programs under custom contracts. This artifact captures
+  the absence of a public commercial API.
+sources:
+  - https://www.autonation.com/
+  - https://autonation.developer.azure-api.net/developer/products?api-version=2022-04-01-preview
+plans:
+  - id: autonation-no-public-api
+    name: No Public API
+    type: enterprise
+    description: AutoNation has no published public API or pricing. Data exchanges occur through dealer
+      management systems and OEM partner channels under bilateral agreement.
+    entries:
+      - label: Bilateral Integration
+        name: bilateral_integration
+        type: flat
+        metric: varies
+        limit: -1
+        timeFrame: usage
+        geo: US
+        unit: 1
+        price: contact partner
+        userMultiplied: false
+    elements:
+      - name: DMS-mediated integration (CDK / Reynolds)
+      - name: OEM dealer-data feeds
+      - name: Third-party inventory aggregators
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+x-canonical:
+  generated: '2026-11-01'
+  vocabulary: engine/economics/plans-canonical.yml
+  models:
+  - subscription
+  units:
+  - negotiated
+  plans:
+  - name: No Public API
+    access: enterprise
+    model: subscription
+    model_how: derived
+    units:
+    - negotiated
+    periods:
+    - per-use
